@@ -12,7 +12,31 @@
       <input id="input1" type="number">
       <label for= "input2">Enter another number:</label>
       <input id="input2" type="number">
+      <label for="calculation">Result:</label>
+      <input id="calculation" type="number">
+      <br>
+      <label>
+        <input type="radio" name="operator" value="add" checked>
+        Addition
+      </label><br>
+      <label>
+        <input type="radio" name="operator" value="sub">
+        Subtraction
+      </label><br>
+      <label>
+        <input type="radio" name="operator" value="mult">
+        Multiplication
+      </label><br>
+      <label>
+        <input type="radio" name="operator" value="divide">
+        Division
+      </label><br>
+
+      <button type="submit">Calculate!</button>
+    
     </form>
+
+    <h2 id="NaN" class="hidden">Please enter two numbers</h2>
     
   </body>
 </html>

@@ -1,3 +1,4 @@
+// Business Logic
 /**
  * Adds two numbers
  * @param {Number} num1 The first addend
